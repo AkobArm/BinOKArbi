@@ -1,0 +1,1 @@
+# Binance Okex parsing price

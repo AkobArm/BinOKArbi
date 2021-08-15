@@ -31,5 +31,3 @@ okex_names = pandas.Series([f'{price}$/{volume}' for name in all_list for price,
 Data = pandas.DataFrame([unify_names, binance_names, okex_names]).T
 Data.columns = ['Unify_name', 'Binance_name', 'Okex_name']
 Data.sort_values(by='Unify_name')
-
-print(Data)
